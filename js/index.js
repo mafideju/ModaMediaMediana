@@ -67,4 +67,7 @@ const ModaMediaMediana = (arrayDeNumeros) => {
   }
 }
 
-console.log(ModaMediaMediana([9, 10, 23, 10, 23, 9]))
+const arrayDeNumerosSemModa = [9, 10, 23, 10, 23, 9];
+const arrayDeNumerosComModa = [23, 9, 10, 23, 10, 23, 9];
+console.log('Com Moda', 'Array', arrayDeNumerosComModa, '- Inferencias', ModaMediaMediana(arrayDeNumerosComModa))
+console.log('Sem Moda', 'Array', arrayDeNumerosSemModa, '- Inferencias', ModaMediaMediana(arrayDeNumerosSemModa))
